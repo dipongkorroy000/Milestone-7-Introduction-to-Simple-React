@@ -45,6 +45,7 @@ function Person() {
     textAlign: "left",
     padding: "5px",
     borderRadius: "5px",
+    margin: "10px",
   };
   return (
     <p style={personStyle}>
@@ -61,6 +62,7 @@ function Developer(props) {
       style={{
         border: "2px solid green",
         borderRadius: "10px",
+        margin: "10px",
       }}
     >
       <h3>Developer: {props.name}</h3>

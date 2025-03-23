@@ -1,3 +1,4 @@
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +40,10 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.singer-style{
+  border: 2px solid saddlebrown;
+  border-radius: 10px;
+  margin: 10px;
 }

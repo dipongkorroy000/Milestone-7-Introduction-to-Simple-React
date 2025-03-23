@@ -1,9 +1,11 @@
 .student{
   border: 2px solid rgb(205, 202, 11);
   border-radius: 10px;
+  margin: 10px;
   
 }
 .player{
   border: 2px solid rgb(205, 95, 11);
   border-radius: 10px;
+  margin: 10px;
 }
