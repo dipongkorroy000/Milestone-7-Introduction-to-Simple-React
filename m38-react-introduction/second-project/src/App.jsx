@@ -4,13 +4,13 @@ import Singer from "./Singer.jsx";
 import "./App.css";
 
 function App() {
-  const time = 400;
+  // const time = 400;
 
-  const actors = ["sal", "sha", "raj", "jas", "manna"];
+  // const actors = ["sal", "sha", "raj", "jas", "manna"];
   const singers = [
     { id: 1, name: "hake", age: 68 },
-    { id: 1, name: "taj", age: 68 },
-    { id: 1, name: "akam", age: 68 },
+    { id: 2, name: "taj", age: 68 },
+    { id: 3, name: "akam", age: 68 },
   ];
 
   return (
