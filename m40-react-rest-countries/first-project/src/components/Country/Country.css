@@ -1,0 +1,9 @@
+.country {
+  border: 1px solid burlywood;
+  border-radius: 1rem;
+  padding-inline: 1rem;
+  padding: 1rem;
+}
+.country-visited {
+  background-color: rgb(76, 75, 73);
+}
