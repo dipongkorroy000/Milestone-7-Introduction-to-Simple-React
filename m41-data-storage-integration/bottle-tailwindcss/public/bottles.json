@@ -1,0 +1,32 @@
+[
+    {
+      "brands": "Shelby",
+      "price": 150,
+      "color": "Blue",
+      "capacity": "1 Liter"
+    },
+    {
+      "brands": "Waterman",
+      "price": 120,
+      "color": "Green",
+      "capacity": "500 ml"
+    },
+    {
+      "brands": "Aquaflow",
+      "price": 200,
+      "color": "Pink",
+      "capacity": "2 Liters"
+    },
+    {
+      "brands": "Hydration Pro",
+      "price": 180,
+      "color": "Black",
+      "capacity": "750 ml"
+    },
+    {
+      "brands": "Cleanspring",
+      "price": 130,
+      "color": "White",
+      "capacity": "1.5 Liters"
+    }
+  ]
