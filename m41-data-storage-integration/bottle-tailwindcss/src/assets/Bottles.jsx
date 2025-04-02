@@ -14,7 +14,6 @@ const Bottles = ({ bottlesPromise }) => {
   const handleClick = (bottle) => {
     const newCart = [...cart, bottle];
     setCart(newCart);
-
     // save the bottle id in the localstorage --
     addStoreCart(bottle.id);
   };
@@ -25,7 +24,6 @@ const Bottles = ({ bottlesPromise }) => {
     const storedCardIds = getStoreCart();
     // console.log(storedCardIds);
     const storedCart = [];
-
     for (const id of storedCardIds) {
       // console.log(id)
       const cartBottle = bottles.find((bottle) => bottle.id === id);
@@ -33,7 +31,6 @@ const Bottles = ({ bottlesPromise }) => {
         storedCart.push(cartBottle);
       }
     }
-
     // console.log("stored cart", storedCart);
     setCart(storedCart);
   }, [bottles]);
